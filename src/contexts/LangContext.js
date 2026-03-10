@@ -1,0 +1,17 @@
+import React from 'react';
+import { createContext, useContext } from "react";
+
+const LangContext = createContext();
+
+export const LangProvider = ({ children }) => {
+
+    const [lang, setLang] = React.useState("en");
+
+    return (
+        <LangContext.Provider value={{ lang, setLang }}>
+            {children}
+        </LangContext.Provider>
+    );
+};
+
+export const useLang = () => useContext(LangContext);
