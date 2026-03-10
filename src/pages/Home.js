@@ -29,7 +29,7 @@ export default function Home() {
 
                     <Box mt={2}>
                         <Typography variant="h6" fontWeight={600} gutterBottom>
-                            Privacy Policy
+                            Нууцлалын бодлого (Privacy Policy)
                         </Typography>
                         <Link
                             href={`/privacy-policy`}
@@ -43,7 +43,7 @@ export default function Home() {
 
                     <Box mt={2}>
                         <Typography variant="h6" fontWeight={600} gutterBottom>
-                            Terms of Service
+                            Үйлчилгээний нөхцөл (Terms of Service)
                         </Typography>
                         <Link
                             href={`/term-of-service`}
@@ -57,7 +57,7 @@ export default function Home() {
 
                     <Box mt={2}>
                         <Typography variant="h6" fontWeight={600} gutterBottom>
-                            Data Deletion
+                            Хувийн мэдээлэл устгах (Data Deletion)
                         </Typography>
                         <Link
                             href={`/data-deletion`}

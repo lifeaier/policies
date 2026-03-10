@@ -214,7 +214,7 @@ export default function DataDeletion() {
                     {lang === "mn" && (
                         <>
                             <Typography variant="h4" fontWeight={700} gutterBottom>
-                                Хувийн мэдээлэл устгах
+                                Хувийн мэдээлэл устгах (Data Deletion)
                             </Typography>
 
                             <Typography variant="body2" color="text.secondary">
